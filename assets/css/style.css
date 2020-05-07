@@ -1,22 +1,159 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700');
 
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+
+/*-------------------------------------Colors */
+
+/*-------------------------------------Special paddings/ margins/ text */
+
+h1,h2,h3,h4,h5 {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.general-sub {
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+/*-------------------------------------Heading /nav elements */
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.75);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+/*-------------------------------------Buttons - adjust styling */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+/*-------------------------------------Containers */
+
+.container-callout {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.container-callout, .parallax {
+    /* The image used */
+    background-image: url("../images/cover-image-nightlife.jpg");
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4)
+}
+
+.container-tour-experience {}
+
+.container-itinerary {}
+
+.container-pricing {}
+
+.container-quotes {}
+
+/*-------------------------------------Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: #fafafa;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.jumbotron .lead {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #fafafa;
+    margin-bottom: 50px;
+}
+
+/*-------------------------------------Tour Experience */
+
 .tour-experience {
 
 }
 
+/*-------------------------------------Itinerary */
 .itinerary {
 
 }
 
+/*-------------------------------------Pricing */
 .pricing {
 
 }
 
-.customer-reviews {
+/*-------------------------------------Quotes */
+
+.quotes {
 
 }
 
+/*-------------------------------------Book Tour */
 .book-tour {
-    
+
 }
 
+/*-------------------------------------Footer */
+
+footer {
+    background-color:black;
+    color: #fafafa;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
