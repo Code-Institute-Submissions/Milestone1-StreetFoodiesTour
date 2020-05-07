@@ -18,6 +18,8 @@ h1,h2,h3,h4,h5 {
     font-family: "Montserrat",sans-serif;
     font-weight: 500;
     color: #fafafa;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .inline-block {
@@ -30,7 +32,8 @@ h1,h2,h3,h4,h5 {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: rgba(0,0,0,0.75);
+    background-color: #324790;
+    color: #fafafa;
 }
 
 .navbar .navbar-toggler {
@@ -39,24 +42,32 @@ h1,h2,h3,h4,h5 {
 
 .navbar-brand {
     font-weight: bold;
+    text-transform: uppercase;
+    color: #fafafa;
 }
 
 .navbar .navbar-nav a {
     font-weight: bold;
 }
 
-/*-------------------------------------Buttons - adjust styling */
+/*-------------------------------------Call-to-action Buttons / Links - adjust styling */
 
 .btn--cta {
     font-weight: bold;
-    border-radius: 23px;
+    border-radius: 15px;
     width: 160px;
+    font-family: "Lato", sans-serif;
 }
 
-.btn--red {
-    color: white;
-    background-color: #f05f40;
-    border-color: #f05f40;
+.btn--fire {
+    background-color: #f13c20;
+    color: #fafafa;
+}
+
+.cta-second {
+    color: #d79922;
+    text-decoration: underline;
+    font-family: "Lato", sans-serif;
 }
 
 /*-------------------------------------Containers */
@@ -91,7 +102,7 @@ h1,h2,h3,h4,h5 {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,0.4)
+    background-color: rgba(0,0,0,0.6)
 }
 
 .container-tour-experience {}
@@ -151,9 +162,9 @@ h1,h2,h3,h4,h5 {
 /*-------------------------------------Footer */
 
 footer {
-    background-color:black;
+    background-color: #324790;
     color: #fafafa;
     font-family: "Lato", sans-serif;
     font-weight: 300;
-    margin: 0;
+    margin-top: 20px;
 }
