@@ -54,14 +54,14 @@
     <!--/Callout Section-->
         
     <!--Tour Experience Section-->
-    <div class="container-fluid container-tour-experience">
+    <div class="container-fluid container-tour-experience content-container">
         <section class="tour-experience">
             <div class="row">
-                <div class="col-12 my-4">
+                <div class="col-12 page-header">
                     <h2>Tour Experience</h2>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mx-auto">
                 <div class="col-12">
                     <p>Join us on a full-day multi-transport and walking adventure to 4 of Mark Wiens's favorite local food 
                     joints! Navigate with us through back street alleyways, vibrant markets, rail tracks and full urban terrain  
@@ -74,11 +74,11 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 my-4">
+                <div class="col-12 page-header ">
                     <h3>Quick Info</h3>
                 </div>
             </div>
-            <div class="row">
+            <div class="row  mx-auto">
                 <div class="col-12 col-md-6 col-lg-4">
                     <p><i class="far fa-check-circle"></i> <strong>Availability:</strong> Daily / On request (check FAQs for more info)</p>
                 </div>
@@ -103,26 +103,53 @@
     <!--/Tour Experience Section-->
         <hr>
     <!--Itinerary Section-->
-    <div class="container-fluid container-itinerary">
+    <div class="container-fluid container-itinerary content-container">
         <section class="itinerary">
             <div class="row">
-                <div class="col-12 my-4">
+                <div class="col-12 page-header">
                     <h2>Itinerary</h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12">
-                    <div>
-                        <p>First Stop: Central Thai Food</p>
+            <div class="card-group">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img class="card-img-top" src="../assets/images/itinerary-south-thai.jpg" alt="Central Thai cuisine">
+                            <div class="card-body">
+                                <h5 class="card-title">Stop 1: Central Thai food</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural 
+                                lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <p>Second Stop: Southern Thai Food</p>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img class="card-img-top" src="../assets/images/itinerary-south-thai.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Stop 2: Southern Thai food</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <p>Third Stop: Thai Chinese Food</p>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img class="card-img-top" src="../assets/images/itinerary-isaan-thai.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Stop 3: Thai Chinese food</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. 
+                                This card has even longer content than the first to show that equal height action.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <p>Final Stop: Isaan Food</p>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img class="card-img-top" src="../assets/images/itinerary-isaan-thai.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Stop 4: Isaan food</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. 
+                                This card has even longer content than the first to show that equal height action.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -134,7 +161,7 @@
     <div class="container-fluid container-pricing">
         <section class="pricing">
             <div class="row">
-                <div class="col-12 my-4">
+                <div class="col-12 page-header">
                     <h2>Pricing</h2>
                 </div>
             </div>
@@ -152,7 +179,7 @@
     <div class="container-fluid container-quotes">
         <section class="quotes">
             <div class="row">
-                <div class="col-12 my-4">
+                <div class="col-12 page-header">
                     <h2>Customer Reviews</h2>
                 </div>
             </div>
@@ -188,27 +215,28 @@
     <div class="container-fluid container-book-tour">
         <section class="book-tour">
             <div class="row">
-                <div class="col-12 my-4">
+                <div class="col-12 page-header">
                     <h2>Book Your Spot On The Tour!</h2>
                 </div>
             </div>
             <form>
+            <div class="mx-auto">
                 <div class="form-group">
                     <label for="FullName">Full Name</label>
-                    <input type="text" class="form-control" id="FullName" placeholder="Enter first and last name">
+                    <input type="text" class="form-control" id="FullName" placeholder="Enter first and last name" required>
                 </div>
                 <div class="form-group">
                     <label for="EmailAddress">Email address</label>
-                    <input type="email" class="form-control" id="EmailAddress" aria-describedby="emailHelp" placeholder="Enter email">
+                    <input type="email" class="form-control" id="EmailAddress" aria-describedby="emailHelp" placeholder="Enter email" required>
                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                 </div>
                 <div class="form-group">
-                    <label for="Phone">Phone Number</label>
-                    <input type="tel" class="form-control" id="Phone" placeholder="Enter phone number">
+                    <label for="Date">Date of Booking</label>
+                    <input type="date" class="form-control" id="Date" placeholder="dd/mm/yyyy" required>
                 </div>
                 <div class="form-group">
                     <label for="Age">Age Range</label>
-                    <select id="Age" class="form-control">
+                    <select id="Age" class="form-control" required>
                         <option selected>Choose...</option>
                         <option>Adult: 18+ years</option>
                         <option>Teen: 12-17 years</option>
@@ -220,11 +248,13 @@
                     <label for="Questions">Questions / Comments</label>
                     <textarea class="form-control" id="Questions" rows="2" placeholder="Please write any questions or comments here"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Book Tour</button>
+                <button type="submit" class="btn btn--fire btn--form">Book Tour</button>
                 <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">I Agree to the Terms & Conditions</label>
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                    <label class="form-check-label" for="exampleCheck1"><small>I Agree to the 
+                    <a class="cta-second" href="#">Terms & Conditions</a></small></label>
                 </div>
+            </div>
             </form>
         </section>
     </div>

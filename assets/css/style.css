@@ -26,7 +26,23 @@ h1,h2,h3,h4,h5 {
     display: inline-block;
 }
 
-/*-------------------------------------Heading /nav elements */
+.page-header {
+    margin-bottom: 50px;
+    text-align: center;
+    color: #d79922;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+/*-------------------------------------Content Container */
+
+.content-container {
+    padding-top: 50px;
+}
+
+/*-------------------------------------Nav elements */
 
 .navbar {
     margin-bottom: 0;
@@ -50,17 +66,17 @@ h1,h2,h3,h4,h5 {
     font-weight: bold;
 }
 
-/*-------------------------------------Call-to-action Buttons / Links - adjust styling */
+/*-------------------------------------Call-to-action Buttons / Links */
 
 .btn--cta {
     font-weight: bold;
-    border-radius: 15px;
+    border-radius: 10px;
     width: 160px;
     font-family: "Lato", sans-serif;
 }
 
 .btn--fire {
-    background-color: #f13c20;
+    background-color: #bd2130;
     color: #fafafa;
 }
 
@@ -68,6 +84,20 @@ h1,h2,h3,h4,h5 {
     color: #d79922;
     text-decoration: underline;
     font-family: "Lato", sans-serif;
+}
+
+.btn--form {
+    border-radius: 10px;
+    font-family: "Lato", sans-serif;
+}
+
+.btn--fire:hover,
+.btn--fire:active,
+.btn--fire:focus,
+.btn--fire:active:focus {
+    border-color:#bd2130;
+    background-color: #fafafa;
+    color: #bd2130;
 }
 
 /*-------------------------------------Containers */
