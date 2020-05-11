@@ -7,6 +7,10 @@ body {
 
 /*-------------------------------------Colors */
 
+.bg-blue {
+    background-color: #eef1f1;
+}
+
 /*-------------------------------------Special paddings/ margins/ text */
 
 h1,h2,h3,h4,h5 {
@@ -27,7 +31,8 @@ h1,h2,h3,h4,h5 {
 }
 
 .page-header {
-    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
     color: #d79922;
 }
@@ -39,7 +44,10 @@ h1,h2,h3,h4,h5 {
 /*-------------------------------------Content Container */
 
 .content-container {
-    padding-top: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 40px;
+    padding-top: 0px;
 }
 
 /*-------------------------------------Nav elements */
@@ -139,9 +147,9 @@ h1,h2,h3,h4,h5 {
 
 .container-itinerary {}
 
-.container-pricing {}
-
-.container-quotes {}
+.container-pricing {
+    margin-bottom: 40px;
+}
 
 /*-------------------------------------Jumbotron */
 
@@ -169,20 +177,40 @@ h1,h2,h3,h4,h5 {
 }
 
 /*-------------------------------------Itinerary */
-.itinerary {
+.card-group {
+    padding-bottom: 40px;
 
 }
 
-/*-------------------------------------Pricing */
+/*-------------------------------------Pricing Table */
 .pricing {
 
 }
 
+tbody th {
+    font-weight: 400; 
+}
+
+caption {
+    font-size: 0.75rem;
+    padding-bottom: 0;
+}
 /*-------------------------------------Quotes */
 
 .quotes {
 
 }
+
+.carousel-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#carouselIndicators li {
+    background-color: #d79922; 
+}
+
 
 /*-------------------------------------Book Tour */
 .book-tour {
@@ -197,4 +225,17 @@ footer {
     font-family: "Lato", sans-serif;
     font-weight: 300;
     margin-top: 20px;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    font-size: 24px;
+    padding: 12px 0;
+    text-align: center;
+    color: #fafafa;
 }
