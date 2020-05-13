@@ -189,9 +189,7 @@ h1,h2,h3,h4,h5 {
 
 /*-------------------------------------Tour Experience */
 
-.tour-experience {
-
-}
+.tour-experience {}
 
 .info-icons {
     font-size: 20px;
@@ -209,9 +207,7 @@ h1,h2,h3,h4,h5 {
     font-size: 14px;
 }
 /*-------------------------------------Pricing Table */
-.pricing {
-
-}
+.pricing {}
 
 tbody th {
     font-weight: 400; 
@@ -223,9 +219,7 @@ caption {
 }
 /*-------------------------------------Customer Reviews - Carousel*/
 
-.customer-reviews {
-
-}
+.customer-reviews {}
 
 .carousel-center {
     display: flex;
