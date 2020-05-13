@@ -105,6 +105,7 @@ h1,h2,h3,h4,h5 {
     border-radius: 10px;
     font-family: "Lato", sans-serif;
     margin-top: 10px;
+    margin-bottom: 10px; 
 }
 
 .btn--fire:hover,
@@ -184,6 +185,13 @@ h1,h2,h3,h4,h5 {
 
 }
 
+.info-icons {
+    font-size: 20px;
+    padding: 12px 0;
+    text-align: center;
+    color: #c58200;
+}
+
 /*-------------------------------------Itinerary */
 .card-group {
     padding-bottom: 40px;
@@ -234,7 +242,7 @@ caption {
   margin: 2rem auto;
   margin-top: 0px;
   padding: 30px;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.55);
 }
 
 .text-input {
@@ -275,6 +283,9 @@ footer {
     font-family: "Lato", sans-serif;
     font-weight: 300;
     margin-top: 20px;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 footer .footer-body {
