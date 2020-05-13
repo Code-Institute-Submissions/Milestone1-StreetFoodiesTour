@@ -3,6 +3,7 @@
 body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
+    font-size: 16px;
 }
 
 /*-------------------------------------Colors */
@@ -21,6 +22,7 @@ h1,h2,h3,h4,h5 {
 .general-sub {
     font-family: "Montserrat",sans-serif;
     font-weight: 500;
+    font-size: 1.125rem;
     color: #fafafa;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -39,6 +41,11 @@ h1,h2,h3,h4,h5 {
 
 .page-header h2 {
     margin-top: 0;
+}
+
+.center-content {
+    max-width: 500px;
+    margin: 2rem auto;
 }
 
 /*-------------------------------------Content Container */
@@ -97,6 +104,7 @@ h1,h2,h3,h4,h5 {
 .btn--form {
     border-radius: 10px;
     font-family: "Lato", sans-serif;
+    margin-top: 10px;
 }
 
 .btn--fire:hover,
@@ -179,9 +187,11 @@ h1,h2,h3,h4,h5 {
 /*-------------------------------------Itinerary */
 .card-group {
     padding-bottom: 40px;
-
 }
 
+.card-text {
+    font-size: 14px;
+}
 /*-------------------------------------Pricing Table */
 .pricing {
 
@@ -195,9 +205,9 @@ caption {
     font-size: 0.75rem;
     padding-bottom: 0;
 }
-/*-------------------------------------Quotes */
+/*-------------------------------------Customer Reviews - Carousel*/
 
-.quotes {
+.customer-reviews {
 
 }
 
@@ -211,10 +221,50 @@ caption {
     background-color: #d79922; 
 }
 
+.carousel-item img {
+    padding-bottom: 50px;
+    padding-top: 0;
+}
 
-/*-------------------------------------Book Tour */
-.book-tour {
 
+/*-------------------------------------Book Tour Form*/
+
+ .booking-form {
+  max-width: 500px;
+  margin: 2rem auto;
+  margin-top: 0px;
+  padding: 30px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.text-input {
+  background: transparent;
+  color: #fafafa;
+  font-weight: 300;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+}
+
+.text-input:hover {
+  border-color: #d79922;
+}
+
+label, input{
+  font-weight: 400;
+  color: #fafafa;
+}
+
+.text-muted {
+    color: #fafafa!important;
+}
+
+#FullName::placeholder,
+#EmailAddress::placeholder,
+#Questions::placeholder {
+    color: #fafafa;
 }
 
 /*-------------------------------------Footer */
@@ -227,10 +277,15 @@ footer {
     margin-top: 20px;
 }
 
+footer .footer-body {
+    font-size: 12px;
+}
+
 .social-links {
     padding-bottom: 15px;
 }
 
+/*-----------Social Link Hover Effect Styling Taken from Code Institute */
 .social-links li a i {
     width: 32px;
     height: 32px;
@@ -238,4 +293,12 @@ footer {
     padding: 12px 0;
     text-align: center;
     color: #fafafa;
-}
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    }
+
+.social-links li a i:hover {
+    color: #d79922;
+    }
