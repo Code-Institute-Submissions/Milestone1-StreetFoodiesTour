@@ -43,9 +43,17 @@ h1,h2,h3,h4,h5 {
     margin-top: 0;
 }
 
+.page-header h3 {
+    color:#c58200 ;
+}
+
 .center-content {
     max-width: 500px;
     margin: 2rem auto;
+}
+
+.center-link {
+    text-align: center;
 }
 
 /*-------------------------------------Content Container */
@@ -250,7 +258,7 @@ caption {
   color: #fafafa;
   font-weight: 300;
   width: 100%;
-  height: 25px;
+  height: 35px;
   margin: 5px 0 20px 0;
   border: 1px solid #fafafa;
   border-radius: 2px;
