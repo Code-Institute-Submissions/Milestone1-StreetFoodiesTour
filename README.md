@@ -1,6 +1,8 @@
-Citation: 
-Nav code comes from code institute
-callout code also
+!NEED TO UPDATE README FILE!
+
+Citations: 
+Nav code snippets from code institute (add link)
+callout code also 
 footer also
 
 parallax from https://www.w3schools.com/howto/howto_css_parallax.asp
