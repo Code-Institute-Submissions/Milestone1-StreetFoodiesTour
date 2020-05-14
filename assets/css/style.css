@@ -206,13 +206,8 @@ h5 {
 }
 /*-------------------------------------Pricing Table */
 
-tbody th {
+.table-body-content {
   font-weight: 400;
-}
-
-caption {
-  font-size: 0.75rem;
-  padding-bottom: 0;
 }
 /*-------------------------------------Customer Reviews - Carousel*/
 
@@ -282,7 +277,6 @@ footer {
   margin-top: 20px;
   margin-bottom: 0;
   padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 footer .footer-body {
