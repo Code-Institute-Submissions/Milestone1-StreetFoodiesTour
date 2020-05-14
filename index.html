@@ -4,15 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>StreetFoodies & Co. | #1 Rated Bangkok Street Food Tour</title>
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-dark navbar-expand-sm">
+      <!--Navbar Section -->
+      <nav class="navbar sticky-top navbar-dark navbar-expand-sm">
         <a href="/" class="navbar-brand">StreetFoodies & Co.</a>
 
         <button class="navbar-toggle ml-auto d-block d-md-none d-lg-none" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,10 +30,11 @@
           </ul>
         </div>
         <div class="d-none d-lg-block">
-          <a href="#book" class="btn btn--fire btn--cta">Book Tour</a>
+          <a href="#book" class="btn btn-fire btn-book-now">Book Tour</a>
         </div>
       </nav>
     </header>
+    <!--/Navbar Section -->
 
     <!--Callout Section: jumbotron/lead code snippets taken from Code Institute-->
     <div class="container-fluid container-callout parallax">
@@ -43,8 +44,8 @@
           <section class="callout jumbotron text-center">
             <h1 class="jumbotron-header">Trip Advisor's #1 Rated Bangkok Street Food Tour!</h1>
             <p class="lead">Join us on a culinary experience like no other, brought to you by world-renowned foodie Mark Wiens!</p>
-            <a href="#book" class="btn btn--fire btn--cta btn-lg">Book Tour</a>
-            <p class="my-4"><a class="cta-second" href="#tour">Learn More About The Tour</a></p>
+            <a href="#book" class="btn btn-fire btn-book-now btn-lg">Book Tour</a>
+            <p class="my-4"><a class="call-to-action-links" href="#tour">Learn More About The Tour</a></p>
           </section>
         </div>
       </div>
@@ -71,7 +72,7 @@
               <br />
               <br />
               Not familiar yet with master food vlogger Mark Wiens? Learn more about his food travels
-              <a class="cta-second" href="https://migrationology.com/about/" target="_blank">here</a> !
+              <a class="call-to-action-links" href="https://migrationology.com/about/" target="_blank">here</a> !
             </p>
           </div>
         </div>
@@ -105,7 +106,7 @@
     <!--/Tour Experience Section-->
 
     <!--Itinerary Section-->
-    <div class="container-fluid container-itinerary content-container bg-blue">
+    <div class="container-fluid container-itinerary content-container section-bg-light-grey">
       <section class="itinerary">
         <div class="row row-no-gutters">
           <div class="col-12 page-header">
@@ -128,11 +129,7 @@
             </div>
             <div class="col-12 col-md-6 col-lg-3">
               <div class="card">
-                <img
-                  class="card-img-top"
-                  src="https://lh3.googleusercontent.com/AyO3qMuAYI-9CfGG6YKpFfjQStjRFfHUj4EAvR-t-42_AB5wg0q1tvMjdMXhaInQRaboFWup4KVyBP_34AnCx8LK6c2quw2taotb3WRH1TP_HYi1KWp5KBuBFgpZsMtS9tle4OxFSg=w2400"
-                  alt="Southern Thai Cuisine"
-                />
+                <img class="card-img-top" src="./assets/images/itinerary-south-thai.jpg" alt="Southern Thai Cuisine" />
                 <div class="card-body">
                   <h5 class="card-title">Stop 2: Southern Thai food</h5>
                   <p class="card-text">
@@ -144,11 +141,7 @@
             </div>
             <div class="col-12 col-md-6 col-lg-3">
               <div class="card">
-                <img
-                  class="card-img-top"
-                  src="https://lh3.googleusercontent.com/HnfgOBNSbhcX2PASjAdW0FnVue1-FqmUzLOCt2BM7zYiJotRaYDHZPqueawiLanPb1_uXNGhMiA5nuw1qzQyNlwvTTMucK6I6Gj55ficrQhi-7PzSobGpAyUX7rniqGDamgPtCSA6w=w2400"
-                  alt="Chinese Thai Cuisine"
-                />
+                <img class="card-img-top" src="./assets/images/itinerary-china-thai.jpg" alt="Chinese Thai Cuisine" />
                 <div class="card-body">
                   <h5 class="card-title">Stop 3: Thai Chinese food</h5>
                   <p class="card-text">
@@ -160,11 +153,7 @@
             </div>
             <div class="col-12 col-md-6 col-lg-3">
               <div class="card">
-                <img
-                  class="card-img-top"
-                  src="https://lh3.googleusercontent.com/DHUjOfwHS3un4dxhenkYsDqkoFGin9qsYbbrpaDJ7BVgxjM7QNUjn6BdvIK4-5cP2Io1ysrBWoAVmzxbGw7NK80skSsyxGoSG2kbboT6Mo18zTF9ty8sK3UPhX6TBwIzJRB4tBjENw=w2400"
-                  alt="Isaan Thai Cuisine"
-                />
+                <img class="card-img-top" src="./assets/images/itinerary-isaan-thai.jpg" alt="Isaan Thai Cuisine" />
                 <div class="card-body">
                   <h5 class="card-title">Stop 4: Isaan food</h5>
                   <p class="card-text">
@@ -174,11 +163,6 @@
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="row row-no-gutters">
-          <div class="col-12">
-            <p class="center-link"><a class="cta-second" href="#home">Back to the Top</a></p>
           </div>
         </div>
       </section>
@@ -234,39 +218,37 @@
     <!--/Pricing Section-->
 
     <!--Customer Review Section -->
-    <div class="container-fluid container-customer-reviews content-container bg-blue">
+    <div class="container-fluid container-customer-reviews content-container section-bg-light-grey">
       <section class="customer-reviews">
         <div class="row row-no-gutters">
           <div class="col-12 page-header">
             <h2 id="reviews">Customer Reviews</h2>
           </div>
         </div>
-        <div class="center-content">
-          <div class="carousel-center">
-            <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselIndicators" data-slide-to="1"></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="row">
-                    <div class="col-sm-12 col-lg-6 col-md-6">
-                      <img src="https://lh3.googleusercontent.com/Rz2KLtrHLJFsKXyTkSLc8827PXSMD9X_FcPBLdoOTvXumyGSTHBkj2S3DpZeEXfifOJYLzSU9-5pNNDFZrrm2fJB63CxYTmvG-Q2CVI002PEiXwBEpSMtAbuizbeazIhrrXpZbfmsw=w2400" alt="First slide" />
-                    </div>
-                    <div class="col-sm-12 col-lg-6 col-md-6">
-                      <img src="https://lh3.googleusercontent.com/auq7utATzN0sJrKCI90dphzFL2ePEftwWKd7CIZYfFtecfdPdC2ze2nVt3oj1K9Ywch-3MwpGs6gTRQI4BwfY_CSZb47gr_0u5uhw1tfSGuuQxJGbCHCyY0uMKQY39SBDj-fwmR9XQ=w2400" alt="Second slide" />
-                    </div>
+        <div class="carousel-center">
+          <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselIndicators" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-sm-12 col-lg-6 col-md-6">
+                    <img src="./assets/images/customer-reviews-joel-360x380.jpg" alt="First slide - Tour review - Joel" />
+                  </div>
+                  <div class="col-sm-12 col-lg-6 col-md-6">
+                    <img src="./assets/images/customer-reviews-triana-360x380.jpg" alt="Second slide - Tour review - Triana" />
                   </div>
                 </div>
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-sm-12 col-lg-6 col-md-6">
-                      <img src="https://lh3.googleusercontent.com/29x6nsm30xIQ5dQkuKocOfIsbCvttDgNISzzjlquKtLzOMi4qrwqKAzF9hpxvWjohgIktXYgkVe1n7iEyFLJrKYD9vNvbQsU5ZzCTa2lgPjibABaDC1VYQ9GtWgYYykZGlcfiiuR9g=w2400" alt="Third slide" />
-                    </div>
-                    <div class="col-sm-12 col-lg-6 col-md-6">
-                      <img src="https://lh3.googleusercontent.com/IVrYuMRfyYMphC37_kZjlFagdbq5D70Xw974h0DDG34vqLxwAqLFkkjadfAVx9nrsOz5L4gdCzC3MSfM4Jv6tlIEQ5HHyNJu6q_34E4yrvRxIUNp0KhSVLN99tscQwnOSSx7Swu7OQ=w2400" alt="Fourth slide" />
-                    </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-sm-12 col-lg-6 col-md-6">
+                    <img src="./assets/images/customer-reviews-john-360x380.jpg" alt="Second slide - Tour review - John" />
+                  </div>
+                  <div class="col-sm-12 col-lg-6 col-md-6">
+                    <img src="./assets/images/customer-reviews-jane-360x380.jpg" alt="Second slide - Tour review - Jane" />
                   </div>
                 </div>
               </div>
@@ -294,7 +276,7 @@
             <div class="form-group">
               <label for="EmailAddress">Email address</label>
               <input type="email" class="form-control text-input" id="EmailAddress" aria-describedby="emailHelp" placeholder="Enter email" required />
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              <small id="emailHelp" class="form-text text-muted book-tour-subtext">We'll never share your email with anyone else.</small>
             </div>
             <div class="form-group">
               <label for="Date">Date of Booking</label>
@@ -314,11 +296,11 @@
               <label for="Questions">Questions / Comments</label>
               <textarea class="form-control text-input" id="Questions" rows="2" placeholder="Please write any questions or comments here"></textarea>
             </div>
-            <button type="submit" class="btn btn--fire btn--form">Book Tour</button>
+            <button type="submit" class="btn btn-fire btn-form">Book Tour</button>
             <div class="form-check">
               <input type="checkbox" class="form-check-input" id="termsCheck" required />
               <label class="form-check-label" for="termsCheck">
-                <small>I Agree to the <a class="cta-second" href="#">Terms & Conditions</a></small>
+                <small>I Agree to the <a class="call-to-action-links" href="#">Terms & Conditions</a></small>
               </label>
             </div>
             <div class="form-check">
@@ -327,11 +309,6 @@
             </div>
           </div>
         </form>
-        <div class="row row-no-gutters">
-          <div class="col-12">
-            <p class="center-link"><a class="cta-second" href="#home">Back to the Top</a></p>
-          </div>
-        </div>
       </section>
     </div>
     <!-- /Book Tour Form Section-->
@@ -353,7 +330,7 @@
             <br />
             <strong>Phone Number:</strong> +66(0)90 900 8877
             <br />
-            <strong>Email Address: </strong><a class="cta-second" href="#">hello@streetfoodiesco.com</a>
+            <strong>Email Address: </strong><a class="call-to-action-links" href="#">hello@streetfoodiesco.com</a>
           </p>
         </div>
         <div class="col-12 col-md-4 col-lg-4">
@@ -382,8 +359,8 @@
       </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   </body>
 </html>

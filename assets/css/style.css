@@ -1,250 +1,244 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700');
+@import url("https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700");
 
 body {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 /*-------------------------------------Colors */
 
-.bg-blue {
-    background-color: #eef1f1;
+.section-bg-light-grey {
+  background-color: #eef1f1;
 }
 
 /*-------------------------------------Special paddings/ margins/ text */
 
-h1,h2,h3,h4,h5 {
-    margin: 0;
-    font-family: "Montserrat", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 .general-sub {
-    font-family: "Montserrat",sans-serif;
-    font-weight: 500;
-    font-size: 1.125rem;
-    color: #fafafa;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: #fafafa;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .inline-block {
-    display: inline-block;
+  display: inline-block;
 }
 
 .page-header {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-    color: #d79922;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: #d79922;
 }
 
 .page-header h2 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .page-header h3 {
-    color:#c58200 ;
-}
-
-.center-content {
-    max-width: 500px;
-    margin: 2rem auto;
+  color: #c58200;
 }
 
 .center-link {
-    text-align: center;
+  text-align: center;
 }
 
 /*-------------------------------------Content Container */
 
 .content-container {
-    padding-right: 30px;
-    padding-left: 30px;
-    margin-top: 40px;
-    padding-top: 0px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-top: 40px;
+  padding-top: 0px;
 }
 
 /*-------------------------------------Nav elements */
 
 .navbar {
-    margin-bottom: 0;
-    border: 0;
-    width: 100%;
-    background-color: #324790;
-    color: #fafafa;
+  margin-bottom: 0;
+  border: 0;
+  width: 100%;
+  background-color: #324790;
+  color: #fafafa;
+}
+
+.sticky-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .navbar .navbar-toggler {
-    border: 0;
+  border: 0;
 }
 
 .navbar-brand {
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #fafafa;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fafafa;
 }
 
 .navbar .navbar-nav a {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /*-------------------------------------Call-to-action Buttons / Links */
 
-.btn--cta {
-    font-weight: bold;
-    border-radius: 10px;
-    width: 160px;
-    font-family: "Lato", sans-serif;
+.btn-book-now {
+  font-weight: bold;
+  border-radius: 10px;
+  width: 160px;
+  font-family: "Lato", sans-serif;
 }
 
-.btn--fire {
-    background-color: #bd2130;
-    color: #fafafa;
+.btn-fire {
+  background-color: #bd2130;
+  color: #fafafa;
 }
 
-.cta-second {
-    color: #d79922;
-    text-decoration: underline;
-    font-family: "Lato", sans-serif;
+.call-to-action-links {
+  color: #d79922;
+  text-decoration: underline;
+  font-family: "Lato", sans-serif;
 }
 
-.btn--form {
-    border-radius: 10px;
-    font-family: "Lato", sans-serif;
-    margin-top: 10px;
-    margin-bottom: 10px; 
+.btn-form {
+  border-radius: 10px;
+  font-family: "Lato", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.btn--fire:hover,
-.btn--fire:active,
-.btn--fire:focus,
-.btn--fire:active:focus {
-    border-color:#bd2130;
-    background-color: #fafafa;
-    color: #bd2130;
+.btn-fire:hover,
+.btn-fire:active,
+.btn-fire:focus,
+.btn-fire:active:focus {
+  border-color: #bd2130;
+  background-color: #fafafa;
+  color: #bd2130;
 }
 
 /*-------------------------------------Containers */
 
 .container-callout {
-    height: 100vh;
-    width: 100%;
+  height: 100vh;
+  width: 100%;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
-.container-callout, .parallax {
-    /* The image used */
-    background-image: url("../images/cover-image-nightlife.jpg");
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
+.container-callout,
+.parallax {
+  background-image: url("../images/cover-image-nightlife.jpg");
+  background-attachment: fixed;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  padding-top: 55px;
 }
 
 .opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0,0,0,0.6)
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
-.container-tour-experience {}
-
-.container-itinerary {}
-
 .container-pricing {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 /*-------------------------------------Jumbotron */
 
 .jumbotron {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .jumbotron-header {
-    color: #fafafa;
-    font-weight: 600;
-    margin-bottom: 50px;
+  color: #fafafa;
+  font-weight: 600;
+  margin-bottom: 50px;
 }
 
 .jumbotron .lead {
-    font-size: 1.25rem;
-    font-weight: 500;
-    color: #fafafa;
-    margin-bottom: 50px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #fafafa;
+  margin-bottom: 50px;
 }
 
 /*-------------------------------------Tour Experience */
 
-.tour-experience {}
-
 .info-icons {
-    font-size: 20px;
-    padding: 12px 0;
-    text-align: center;
-    color: #c58200;
+  font-size: 20px;
+  padding: 12px 0;
+  text-align: center;
+  color: #c58200;
 }
 
 /*-------------------------------------Itinerary */
 .card-group {
-    padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 .card-text {
-    font-size: 14px;
+  font-size: 14px;
 }
 /*-------------------------------------Pricing Table */
-.pricing {}
 
 tbody th {
-    font-weight: 400; 
+  font-weight: 400;
 }
 
 caption {
-    font-size: 0.75rem;
-    padding-bottom: 0;
+  font-size: 0.75rem;
+  padding-bottom: 0;
 }
 /*-------------------------------------Customer Reviews - Carousel*/
 
-.customer-reviews {}
-
 .carousel-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #carouselIndicators li {
-    background-color: #d79922; 
+  background-color: #d79922;
 }
 
 .carousel-item img {
-    padding-bottom: 50px;
-    padding-top: 0;
+  padding-bottom: 50px;
+  padding-top: 0;
 }
-
 
 /*-------------------------------------Book Tour Form*/
 
- .booking-form {
+.booking-form {
   max-width: 500px;
   margin: 2rem auto;
   margin-top: 0px;
   padding: 30px;
-  background-color: rgba(0,0,0,0.55);
+  background-color: rgba(0, 0, 0, 0.55);
 }
 
 .text-input {
@@ -262,56 +256,57 @@ caption {
   border-color: #d79922;
 }
 
-label, input{
+label,
+input {
   font-weight: 400;
   color: #fafafa;
 }
 
-.text-muted {
-    color: #fafafa!important;
+.book-tour-subtext {
+  color: #fafafa !important;
 }
 
 #FullName::placeholder,
 #EmailAddress::placeholder,
 #Questions::placeholder {
-    color: #fafafa;
+  color: #fafafa;
 }
 
 /*-------------------------------------Footer */
 
 footer {
-    background-color: #324790;
-    color: #fafafa;
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    margin-top: 20px;
-    margin-bottom: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
+  background-color: #324790;
+  color: #fafafa;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 footer .footer-body {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .social-links {
-    padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 /*-----------Social Link Hover Effect Styling Taken from Code Institute */
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    font-size: 24px;
-    padding: 12px 0;
-    text-align: center;
-    color: #fafafa;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-    }
+  width: 32px;
+  height: 32px;
+  font-size: 24px;
+  padding: 12px 0;
+  text-align: center;
+  color: #fafafa;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
 
 .social-links li a i:hover {
-    color: #d79922;
-    }
+  color: #d79922;
+}
