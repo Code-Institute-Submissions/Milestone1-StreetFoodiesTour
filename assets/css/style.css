@@ -347,7 +347,6 @@ footer .footer-body {
     .container-callout {
         background: url('../images/cover-image-nightlife-640x920-small.jpg');
         background-position: center center;
-        background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: cover;
 }
