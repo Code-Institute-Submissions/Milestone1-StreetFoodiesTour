@@ -90,17 +90,16 @@ h5 {
   font-weight: bold;
 }
 
-
 /*-----Toggle Icon */
 
 .navbar-toggle {
-    background-color: #324790;
-    border: none;
+  background-color: #324790;
+  border: none;
 }
 
 button span i {
-    font-size: 24px;
-    color: #fafafa;
+  font-size: 24px;
+  color: #fafafa;
 }
 
 /*-------------------------------------Call-to-action Buttons / Links */
@@ -142,47 +141,27 @@ button span i {
 /*-------------------------------------Containers */
 
 .container-callout {
-    height: 100vh;
-    width: 100%;
+  height: 100vh;
+  width: 100%;
 
-    background: url('../images/cover-image-nightlife.jpg');
-    background-attachment: fixed;
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    padding-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
-/*-------------------------------------Containers
-.container-callout {
-    height: 100vh;
-    width: 100%;
-
-    background: url('../images/cover-image-nightlife.jpg');
-    background-attachment: fixed;
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    
-    padding-top: 70px;
+.container-callout,
+.parallax {
+  background-image: url("../images/cover-image-nightlife.jpg");
+  background-attachment: fixed;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  padding-top: 55px;
 }
-*/
 
 .opaque-overlay {
   position: absolute;
@@ -196,7 +175,6 @@ button span i {
 .container-pricing {
   margin-bottom: 40px;
 }
-
 
 /*-------------------------------------Jumbotron */
 
@@ -237,8 +215,8 @@ button span i {
 }
 
 .card-body {
-    min-height: 300px;
-    max-height: 300px;
+  min-height: 300px;
+  max-height: 300px;
 }
 /*-------------------------------------Pricing Table */
 
@@ -339,14 +317,4 @@ footer .footer-body {
 
 .social-links li a i:hover {
   color: #d79922;
-}
-
-/*-------------------------------------Media Queries */
-
-@media only screen and (max-width: 600px) {
-    .container-callout {
-        background: url('../images/cover-image-nightlife-640x920-small.jpg');
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
 }
