@@ -18,5 +18,8 @@ https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/cou
 bg-callout: (tried parallax but it wasn't displaying on mobile, changed to Code Institute one)
 https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/4b3b1b062b01424997c8fd052e177b8e/?child=first 
 
+to fix responsiveness of cover-image in callout >>
+https://web.dev/optimize-css-background-images-with-media-queries/
+
 Tests:
 Chrome Dev Tools >> Network >> test Javascript (200)
