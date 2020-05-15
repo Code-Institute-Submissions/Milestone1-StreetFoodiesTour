@@ -175,6 +175,50 @@ button span i {
   margin-bottom: 40px;
 }
 
+/*-------------------------------------Media Queries */
+
+@media (max-width: 480px) {
+    .container-callout {
+        background: url('../images/cover-image-nightlife-640x920-small.jpg');
+        background-attachment: fixed;
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        
+        padding-top: 70px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .container-callout {
+        background: url('../images/cover-image-nightlife-1240x920-medium.jpg');
+
+        background-attachment: fixed;
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        
+        padding-top: 70px;
+    }
+}
+
+
 /*-------------------------------------Jumbotron */
 
 .jumbotron {
