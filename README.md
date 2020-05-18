@@ -1,23 +1,29 @@
 # StreetFoodies & Co. - Bangkok's #1 Rated Street Food Tour
 
 ## Index:
-* [Project Background](#project-background) :information_desk_person: 
-* UX :iphone:
-* [Features](#features) :clipboard:
-* Technologies Used :wrench:
-* Testing :flashlight:
-* Deployment :rocket:
-* Credits :pencil2:
+* <a href="#project-background">Project Background :information_desk_person:</a> 
+* <a href="#ux">UX :iphone:</a> 
+* <a href="#features">Features :clipboard:</a>
+* <a href="#technologies">Technologies Used :wrench:</a>
+* <a href="#testing">Testing :flashlight:</a>
+* <a href="#deployment">Deployment :rocket:</a>
+* <a href="#cedits">Credits :pencil2:Technologies Used :wrench:</a>
+
+---
+<span id="project-background"></span>
+## Project Background :information_desk_person:
+
+This project is a redesign of the [BangkokVanguards](https://bangkokvanguards.com/experiences/the-ultimate-bangkok-foodtour/) street food tour page. The name of the agency was changed to StreetFoodies & Co., a fictitious & catchy name that suits the vibe of the tour. 
+
+The idea behind the re envisioned structure & layout of the website is:
+1. To give visitors a better idea of what the tour has to offer through clearly-defined sections highlighting key information & unique selling points;
+2. To provide them with the ability to book the tour with ease with a simple click of a button. 
+
+In the long run, the elevated user experience would help to drive more traffic to the website and generate higher conversions for the agency.
 
 ---
 
-## Project Background 
-:information_desk_person:
-
-TBD
-
----
-
+<span id="ux"></span>
 ## UX :iphone:
 
 ### 1. Who is this website for?
@@ -83,6 +89,7 @@ The website provides:
 
 ---
 
+<span id="features"></span>
 ## Features 
 
 * **Navigation bar:** It allows website visitors to navigate easily to different sections on the homepage. It also provides a direct button to the booking form on desktop and larger screens. On mobile, the navigation links collapse into a hamburger menu to take up less real estate on the screen and the button disappears.
@@ -95,7 +102,7 @@ The website provides:
 * **Footer:** The footer contains a short introduction to StreetFoodies & Co (the tour agency), contact details with a fictitious email & phone number for visitors to get in touch, and social links which currently direct visitors to Mark Wiens’ social media accounts. 
 
 ---
-
+<span id="technologies"></span>
 ## Technologies Used :wrench:
 
 ### 1. Languages
@@ -127,6 +134,7 @@ This website is saved in a repository on GitHub.
 
 ---
 
+<span id="testing"></span>
 ## Testing :flashlight:
 
 ### 1. Testing Tools 
@@ -174,6 +182,7 @@ without filling out a required field or checking the required boxes
 
 ---
 
+<span id="deployment"></span>
 ## Depolyment :rocket:
 
 This site is hosted on GitHub pages. 
@@ -181,26 +190,26 @@ This site is hosted on GitHub pages.
 You can view the live site here: https://zahrasadiq.github.io/Milestone1-StreetFoodiesTour/ 
 
 ---
-
+<span id="credits"></span>
 ## Credits :pencil2:
 
 ### 1. Code Snippets 
 
-* Inspiration for the Callout Container & Jumbotron (styling) - Code Institute tutorials (add link)
+* Inspiration for the [Callout Container & Jumbotron]() (styling) - Code Institute tutorials (add link)
 * Inspiration for the [Parallax Effect](https://www.w3schools.com/howto/howto_css_parallax.asp) 
-* Inspiration for page headers and footers (styling) - Code Institute tutorials (add link)
+* Inspiration for [page headers] and [footers]() (styling) - Code Institute tutorials (add link)
 
 ### 2. Media (add links)
 
-* Icons from: FontAwesome
-* All images sourced from: Unsplash 
-* Fonts from: Google Fonts 
+* Icons from: [FontAwesome](https://fontawesome.com/icons?d=gallery)
+* All images sourced from: [Unsplash](https://unsplash.com/collections/10243987/milestone-project-1-)
+* Lato & Montserrat Fonts from: [Google Fonts](https://fonts.google.com/?category=Sans+Serif)
 
 ### 3. Content 
 
-* The tour information on the website was inspired from: https://bangkokvanguards.com/experiences/the-ultimate-bangkok-foodtour/ 
+* The tour information on the website was inspired from the original [food tour website](https://bangkokvanguards.com/experiences/the-ultimate-bangkok-foodtour/)  
 * The texts have in large part been modified or made up by me, Zahra Sadiq 
-* The quick info details are replicated from the site: https://bangkokvanguards.com/experiences/the-ultimate-bangkok-foodtour/ 
+* The quick info details are replicated from the [food tour website](https://bangkokvanguards.com/experiences/the-ultimate-bangkok-foodtour/)
 * The customer reviews are real TripAdvisor reviews which have been modified to fit the context of this website 
 
 
