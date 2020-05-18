@@ -7,13 +7,14 @@
 * <a href="#technologies">Technologies Used :wrench:</a>
 * <a href="#testing">Testing :flashlight:</a>
 * <a href="#deployment">Deployment :rocket:</a>
-* <a href="#cedits">Credits :pencil2:Technologies Used :wrench:</a>
+* <a href="#cedits">Credits :pencil2:</a>
 
 ---
 <span id="project-background"></span>
 ## Project Background :information_desk_person:
 
-This project is a redesign of the [BangkokVanguards](https://bangkokvanguards.com/experiences/the-ultimate-bangkok-foodtour/) street food tour page. The name of the agency was changed to StreetFoodies & Co., a fictitious & catchy name that suits the vibe of the tour. 
+This project is a redesign of the <a href="https://bangkokvanguards.com/experiences/the-ultimate-bangkok-foodtour/" target="_blank">BangkokVanguards</a> street food tour page. 
+The name of the agency was changed to StreetFoodies & Co., a fictitious & catchy name that suits the vibe of the tour. 
 
 The idea behind the re envisioned structure & layout of the website is:
 1. To give visitors a better idea of what the tour has to offer through clearly-defined sections highlighting key information & unique selling points;
@@ -90,7 +91,7 @@ The website provides:
 ---
 
 <span id="features"></span>
-## Features 
+## Features :clipboard:
 
 * **Navigation bar:** It allows website visitors to navigate easily to different sections on the homepage. It also provides a direct button to the booking form on desktop and larger screens. On mobile, the navigation links collapse into a hamburger menu to take up less real estate on the screen and the button disappears.
 * **Hero Image:** The hero image gives visitors an exciting view of Bangkok’s vibrant nightlife with a closeup of two tuk tuks parked on a busy food street. The text invites visitors to join in on the highly rated street food tour with a special mention of Mark Wiens as a value added proposition. Moreover, a prominent call-to-action button directs them straight to the form to book their spot right away.
@@ -197,7 +198,7 @@ You can view the live site here: https://zahrasadiq.github.io/Milestone1-StreetF
 
 * Inspiration for the [Callout Container & Jumbotron]() (styling) - Code Institute tutorials (add link)
 * Inspiration for the [Parallax Effect](https://www.w3schools.com/howto/howto_css_parallax.asp) 
-* Inspiration for [page headers] and [footers]() (styling) - Code Institute tutorials (add link)
+* Inspiration for [page headers]() and [footers]() (styling) - Code Institute tutorials (add link)
 
 ### 2. Media (add links)
 
@@ -211,6 +212,11 @@ You can view the live site here: https://zahrasadiq.github.io/Milestone1-StreetF
 * The texts have in large part been modified or made up by me, Zahra Sadiq 
 * The quick info details are replicated from the [food tour website](https://bangkokvanguards.com/experiences/the-ultimate-bangkok-foodtour/)
 * The customer reviews are real TripAdvisor reviews which have been modified to fit the context of this website 
+
+### 4. Acknowledgements 
+
+* **Oluwafemi Medale (My CI Mentor):** Thanks for your advice, guidance and support throughout the duration of this project.
+I look forward to working with you again on future milestone projects.
 
 
 
