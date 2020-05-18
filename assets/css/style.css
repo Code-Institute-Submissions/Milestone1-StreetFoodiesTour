@@ -47,10 +47,6 @@ h5 {
   margin-top: 0;
 }
 
-.center-link {
-  text-align: center;
-}
-
 /*-------------------------------------Content Container */
 
 .content-container {
@@ -86,8 +82,13 @@ h5 {
   color: #fafafa;
 }
 
-.navbar .navbar-nav a {
-  font-weight: bold;
+.navbar-dark .navbar-nav .nav-link {
+    color: #fafafa;
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    text-decoration: underline;
 }
 
 /*-----Toggle Icon */
@@ -116,7 +117,7 @@ button span i {
   color: #fafafa;
 }
 
-.call-to-action-links {
+.links {
   color: #d79922;
   text-decoration: underline;
   font-family: "Lato", sans-serif;
