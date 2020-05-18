@@ -2,7 +2,7 @@
 
 ## Index:
 * Project Background :information_desk_person:
-* UX :computer: :iphone:
+* UX :iphone:
 * Features :clipboard:
 * Technologies Used :wrench:
 * Testing :flashlight:
@@ -17,7 +17,7 @@ TBD
 
 ---
 
-## UX :computer: :iphone:
+## UX :iphone:
 
 ### 1. Who is this website for?
 
@@ -97,13 +97,13 @@ The website provides:
 
 ## Technologies Used :wrench:
 
-###1. Languages
+### 1. Languages
 
 This User Centric Frontend Project focused on the use of the following languages:
 * HTML - for website structure 
 * CSS - for styling 
 
-###2. Frameworks 
+### 2. Frameworks 
 
 This website makes use of Bootstrap 4 for:
 * grid system 
@@ -111,15 +111,15 @@ This website makes use of Bootstrap 4 for:
 * components i.e. cards, carousel, form, and list features
 * navbar 
 
-###3. IDE's 
+### 3. IDE's 
 
 This website was developed on GitPod.
 
-###4. External Hosting
+### 4. External Hosting
 
 This website is saved in a repository on GitHub.
 
-###5. Other Technologies Used  
+### 5. Other Technologies Used  
 
 * Webformatter - to beautify my CSS & HTML code 
 * FontAwesome - for all icons used on the website 
@@ -128,7 +128,7 @@ This website is saved in a repository on GitHub.
 
 ## Testing :flashlight:
 
-###1. Testing Tools 
+### 1. Testing Tools 
 
 * The W3C Markup Validation Service - for testing my HTML code 
     * Result: 
@@ -139,7 +139,7 @@ This website is saved in a repository on GitHub.
     * CSS styling changes before implementing it in the code
     * Network to assess whether it was picking up Javascript (status: 200) 
 
-###2. User Testing 
+### 2. User Testing 
 
 This website has been tested by friends and family to check for:
 * bugs or disabled links 
@@ -147,7 +147,7 @@ This website has been tested by friends and family to check for:
 * correct form responses (although form is not functional)
 * picture loading speed 
 
-###3. Browser & Device Testing 
+### 3. Browser & Device Testing 
 
 This website has been tested in the following browsers on Desktop (MacPro 2013 version):
 * Chrome
@@ -157,7 +157,7 @@ This website has been tested on the following devices:
 * iPhone 11 - Safari 
 * iPad - Safari 
 
-###4. Bugs & Problems 
+### 4. Bugs & Problems 
 
 The one major problem I encountered with the website was that the parallax effect doesn't work on mobile and tablet devices. 
 To solve the issue I tried the following:
@@ -166,7 +166,7 @@ To solve the issue I tried the following:
 
 *However, none of my attempts worked and due to time restrictions I decided to revert back to the original parallax effect.*
 
-###5. Sidenotes: 
+### 5. Sidenotes: 
 
 * Currently the form is not functional, so testing was only done to make sure that input messages are displayed if a user tries to "submit" the form 
 without filling out a required field or checking the required boxes 
@@ -183,36 +183,19 @@ You can view the live site here: https://zahrasadiq.github.io/Milestone1-StreetF
 
 ## Credits :pencil2:
 
-###1. Code Snippets (to clean up)
+### 1. Code Snippets 
 
-Citations: 
-Nav code snippets from code institute (add link)
-callout code also 
-footer also
+* Inspiration for the Callout Container & Jumbotron (styling) - Code Institute tutorials (add link)
+* Inspiration for the Parallax Effect - https://www.w3schools.com/howto/howto_css_parallax.asp 
+* Inspiration for page headers and footers (styling) - Code Institute tutorials (add link)
 
-parallax from https://www.w3schools.com/howto/howto_css_parallax.asp
-
-sticky top nav from - https://www.w3schools.com/howto/howto_js_sticky_header.asp
-
-page headers & h2 css style from code institute: 
-https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/4b3b1b062b01424997c8fd052e177b8e/?child=first 
-
-footer social links styling:
-https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%40b51f7b8b815c4bcd9979d2281b6d97a9
-
-bg-callout: (tried parallax but it wasn't displaying on mobile, changed to Code Institute one)
-https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/4b3b1b062b01424997c8fd052e177b8e/?child=first 
-
-to fix responsiveness of cover-image in callout >>
-https://web.dev/optimize-css-background-images-with-media-queries/
-
-###2. Media (add links)
+### 2. Media (add links)
 
 * Icons from: FontAwesome
 * All images sourced from: Unsplash 
 * Fonts from: Google Fonts 
 
-###3. Content 
+### 3. Content 
 
 * The tour information on the website was inspired from: https://bangkokvanguards.com/experiences/the-ultimate-bangkok-foodtour/ 
 * The texts have in large part been modified or made up by me, Zahra Sadiq 
