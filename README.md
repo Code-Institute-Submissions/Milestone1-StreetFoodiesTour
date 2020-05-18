@@ -1,5 +1,6 @@
 # StreetFoodies & Co. - Bangkok's #1 Rated Street Food Tour
 
+<div id="top"></div>
 ## Index:
 * <a href="#project-background">Project Background :information_desk_person:</a> 
 * <a href="#ux">UX :iphone:</a> 
@@ -13,7 +14,7 @@
 <span id="project-background"></span>
 ## Project Background :information_desk_person:
 
-This project is a redesign of the <a href="https://bangkokvanguards.com/experiences/the-ultimate-bangkok-foodtour/" target="_blank">BangkokVanguards</a> street food tour page. 
+This project is a redesign of the [BangkokVanguards](https://bangkokvanguards.com/experiences/the-ultimate-bangkok-foodtour/) street food tour page. 
 The name of the agency was changed to StreetFoodies & Co., a fictitious & catchy name that suits the vibe of the tour. 
 
 The idea behind the re envisioned structure & layout of the website is:
@@ -33,13 +34,17 @@ This website is targeted towards first time and veteran travelers to Bangkok int
 * learning more about the Bangkok Street Food Tour and
 * booking their spot on the tour. 
 
+
 ### 2. Who are the primary target groups?
 
 * This website would attract **first time and veteran travelers to Bangkok** looking for an authentic culinary experience.
 * Since the StreetFoodies & Co. (a fictitious tour agency) has collaborated with Mark Wiens to put together this tour, a 
 large traffic source for this website would be referral traffic from Mark Wiens’ website - i.e. **Mark Wiens fans.**
 * As the tour is 6-8 hours long, with lots of walking, it can be assumed that a large portion of the bookers would be 
-**young to middle-aged adults (men & women) either single or with children** who are able to keep up.
+**young to middle-aged adults (men & women) either single or with children** who are able to keep up. 
+
+(*Taking these points into consideration, I wanted the website to present a young & vibrant look & feel*)
+
 
 ### 3. What is it that they (the users) want to achieve?
 
@@ -48,12 +53,14 @@ There are 4 user goals for this website:
 * Social validation 
 * Ability to book a spot on the tour with ease 
 * Get contact information in case they need to contact agency directly 
- 
+
+
 ### 4. How is my project the best way to help them achieve those things?
 
 * Smooth navigation throughout the website so that users can find the information they’re looking for
 * The content on the website is organized into sections making it both easy to find and digestible
 * Clear call-to-actions inform users what actions they should take on the website
+
 
 ### 5. How do users achieve each of the following goals:
 
@@ -63,7 +70,7 @@ The website provides:
 * A "Tour Experience" section which gives a short introduction as to what tour bookers can expect from the tour.
 * A “Quick Info” sub-section, detailing important information such as duration of the tour, meeting point, tour type and more. 
 * An “Itinerary” section which gives website visitors a more elaborate description about the four cuisines they will get to try on the tour.
-* A "Pricing" section listing the price per person, categorized by the age range they fall into
+* A "Pricing" section listing the price per person, categorized by the age range they fall into.
 
 
 **5.2. To clarify questions they have about the tour or get in touch with the team:**
@@ -85,9 +92,12 @@ The website provides:
 
 ### Wireframes & Mockups:
 
-* Link to wireframe goes here 
-* Link to look & feel mockup goes here 
-
+* Link to website structural flow goes here 
+* Link to desktop wireframe goes here
+* Link to mobile wireframe goes here 
+* Link to look & feel mockup goes here
+ 
+*<div style="align: right"><p><a href="#top">Back to the top</a></p></div>*
 ---
 
 <span id="features"></span>
@@ -140,10 +150,10 @@ This website is saved in a repository on GitHub.
 
 ### 1. Testing Tools 
 
-* The W3C Markup Validation Service - for testing my HTML code 
-    * Result: 
-* The W3C CSS Validation Service - W3 Jigsaw - for testing my CSS code 
-    * Result: 
+* [The W3C Markup Validation Service](https://validator.w3.org/) - for testing my HTML code 
+    * Result: No errors, however I recieved a warning message that my "date" input type for my form may not be supported in all browsers
+* [The W3C CSS Validation Service: W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - for testing my CSS code 
+    * Result: "Congratulations! No Error Found."
 * Chrome Dev Tools - for testing:
     * Mobile responsiveness
     * CSS styling changes before implementing it in the code
@@ -165,12 +175,13 @@ This website has been tested in the following browsers on Desktop (MacPro 2013 v
 
 This website has been tested on the following devices:
 * iPhone 11 - Safari 
-* iPad - Safari 
+* iPhone 6 - Safari
+* iPad Air 2 - Safari 
 
 ### 4. Bugs & Problems 
 
 The one major problem I encountered with the website was that the parallax effect doesn't work on mobile and tablet devices. 
-To solve the issue I tried the following:
+To resolve the issue I tried the following:
 * Uploading small and medium-sized background images and creating separate media queries for each breakpoint (without parallax effect)
 * Removing the parallax effect and adding the background image to a container 
 
@@ -178,7 +189,7 @@ To solve the issue I tried the following:
 
 ### 5. Sidenotes: 
 
-* Currently the form is not functional, so testing was only done to make sure that input messages are displayed if a user tries to "submit" the form 
+* Currently the form is not functional, so testing was only done to make sure that input messages are triggered if a user tries to "submit" the form 
 without filling out a required field or checking the required boxes 
 
 ---
@@ -186,9 +197,9 @@ without filling out a required field or checking the required boxes
 <span id="deployment"></span>
 ## Depolyment :rocket:
 
-This site is hosted on GitHub pages. 
+This site is hosted on GitHub Pages. 
 
-You can view the live site here: https://zahrasadiq.github.io/Milestone1-StreetFoodiesTour/ 
+You can view the live site [here](https://zahrasadiq.github.io/Milestone1-StreetFoodiesTour/)
 
 ---
 <span id="credits"></span>
@@ -196,11 +207,11 @@ You can view the live site here: https://zahrasadiq.github.io/Milestone1-StreetF
 
 ### 1. Code Snippets 
 
-* Inspiration for the [Callout Container & Jumbotron]() (styling) - Code Institute tutorials (add link)
+* Inspiration for the [Callout Container & Jumbotron](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/4b3b1b062b01424997c8fd052e177b8e/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%404b3b1b062b01424997c8fd052e177b8e) (styling) - Code Institute tutorials (add link)
 * Inspiration for the [Parallax Effect](https://www.w3schools.com/howto/howto_css_parallax.asp) 
-* Inspiration for [page headers]() and [footers]() (styling) - Code Institute tutorials (add link)
+* Inspiration for [Footer](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%40b51f7b8b815c4bcd9979d2281b6d97a9) (styling) - Code Institute tutorials (add link)
 
-### 2. Media (add links)
+### 2. Media 
 
 * Icons from: [FontAwesome](https://fontawesome.com/icons?d=gallery)
 * All images sourced from: [Unsplash](https://unsplash.com/collections/10243987/milestone-project-1-)
@@ -208,9 +219,9 @@ You can view the live site here: https://zahrasadiq.github.io/Milestone1-StreetF
 
 ### 3. Content 
 
-* The tour information on the website was inspired from the original [food tour website](https://bangkokvanguards.com/experiences/the-ultimate-bangkok-foodtour/)  
+* The tour information on the website was inspired from the [BangkokVanguards food tour website](https://bangkokvanguards.com/experiences/the-ultimate-bangkok-foodtour/)  
 * The texts have in large part been modified or made up by me, Zahra Sadiq 
-* The quick info details are replicated from the [food tour website](https://bangkokvanguards.com/experiences/the-ultimate-bangkok-foodtour/)
+* The quick info details are replicated from the [BangkokVanguards food tour website](https://bangkokvanguards.com/experiences/the-ultimate-bangkok-foodtour/)
 * The customer reviews are real TripAdvisor reviews which have been modified to fit the context of this website 
 
 ### 4. Acknowledgements 
