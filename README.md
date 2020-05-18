@@ -1,9 +1,9 @@
 # StreetFoodies & Co. - Bangkok's #1 Rated Street Food Tour
 
 ## Index:
-* Project Background :information_desk_person:
+* [Project Background](#project-background) :information_desk_person: 
 * UX :iphone:
-* Features :clipboard:
+* [Features](#features) :clipboard:
 * Technologies Used :wrench:
 * Testing :flashlight:
 * Deployment :rocket:
@@ -11,7 +11,8 @@
 
 ---
 
-## Project Background :information_desk_person:
+## Project Background 
+:information_desk_person:
 
 TBD
 
@@ -82,7 +83,7 @@ The website provides:
 
 ---
 
-## Features :clipboard:
+## Features 
 
 * **Navigation bar:** It allows website visitors to navigate easily to different sections on the homepage. It also provides a direct button to the booking form on desktop and larger screens. On mobile, the navigation links collapse into a hamburger menu to take up less real estate on the screen and the button disappears.
 * **Hero Image:** The hero image gives visitors an exciting view of Bangkok’s vibrant nightlife with a closeup of two tuk tuks parked on a busy food street. The text invites visitors to join in on the highly rated street food tour with a special mention of Mark Wiens as a value added proposition. Moreover, a prominent call-to-action button directs them straight to the form to book their spot right away.
@@ -186,7 +187,7 @@ You can view the live site here: https://zahrasadiq.github.io/Milestone1-StreetF
 ### 1. Code Snippets 
 
 * Inspiration for the Callout Container & Jumbotron (styling) - Code Institute tutorials (add link)
-* Inspiration for the Parallax Effect - https://www.w3schools.com/howto/howto_css_parallax.asp 
+* Inspiration for the [Parallax Effect](https://www.w3schools.com/howto/howto_css_parallax.asp) 
 * Inspiration for page headers and footers (styling) - Code Institute tutorials (add link)
 
 ### 2. Media (add links)

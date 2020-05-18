@@ -6,20 +6,19 @@ body {
   font-size: 16px;
 }
 
-/*-------------------------------------Colors */
+/*--------------------- Colors ---------------------*/
 
 .section-bg-light-grey {
   background-color: #eef1f1;
 }
 
-/*-------------------------------------Special paddings/ margins/ text */
+/*--------------------- Special paddings/ margins/ text ---------------------*/
 
 h1,
 h2,
 h3,
 h4,
 h5 {
-  margin: 0;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -47,7 +46,7 @@ h5 {
   margin-top: 0;
 }
 
-/*-------------------------------------Content Container */
+/*--------------------- Content Container ---------------------*/
 
 .content-container {
   padding-right: 30px;
@@ -55,7 +54,7 @@ h5 {
   padding-top: 30px;
 }
 
-/*-------------------------------------Nav elements */
+/*--------------------- Nav elements ---------------------*/
 
 .navbar {
   margin-bottom: 0;
@@ -82,15 +81,15 @@ h5 {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #fafafa;
-    font-weight: bold;
+  color: #fafafa;
+  font-weight: bold;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-/*-----Toggle Icon */
+/*--------------------- Toggle Icon ---------------------*/
 
 .navbar-toggle {
   background-color: #324790;
@@ -102,7 +101,7 @@ button span i {
   color: #fafafa;
 }
 
-/*-------------------------------------Call-to-action Buttons / Links */
+/*--------------------- Call-to-action Buttons / Links ---------------------*/
 
 .btn-book-now {
   font-weight: bold;
@@ -125,8 +124,7 @@ button span i {
 .btn-form {
   border-radius: 10px;
   font-family: "Lato", sans-serif;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
 }
 
 .btn-fire:hover,
@@ -138,12 +136,11 @@ button span i {
   color: #bd2130;
 }
 
-/*-------------------------------------Containers */
+/*--------------------- Containers ---------------------*/
 
 .container-callout {
   height: 100vh;
   width: 100%;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -176,7 +173,7 @@ button span i {
   margin-bottom: 40px;
 }
 
-/*-------------------------------------Jumbotron */
+/*--------------------- Jumbotron ---------------------*/
 
 .jumbotron {
   background-color: transparent;
@@ -196,7 +193,7 @@ button span i {
   margin-bottom: 50px;
 }
 
-/*-------------------------------------Tour Experience */
+/*--------------------- Tour Experience ---------------------*/
 
 .info-icons {
   font-size: 20px;
@@ -205,7 +202,7 @@ button span i {
   color: #c58200;
 }
 
-/*-------------------------------------Itinerary */
+/*--------------------- Itinerary ---------------------*/
 .card-group {
   padding-bottom: 40px;
 }
@@ -220,14 +217,14 @@ button span i {
 }
 
 .card-wrapper {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
-/*-------------------------------------Pricing Table */
+/*--------------------- Pricing Table ---------------------*/
 
 .table-body-content {
   font-weight: 400;
 }
-/*-------------------------------------Customer Reviews - Carousel*/
+/*--------------------- Customer Reviews - Carousel ---------------------*/
 
 .carousel-center {
   display: flex;
@@ -244,7 +241,7 @@ button span i {
   padding-top: 0;
 }
 
-/*-------------------------------------Book Tour Form*/
+/*--------------------- Book Tour Form ---------------------*/
 
 .booking-form {
   max-width: 500px;
@@ -285,7 +282,7 @@ input {
   color: #fafafa;
 }
 
-/*-------------------------------------Footer */
+/*--------------------- Footer ---------------------*/
 
 footer {
   background-color: #324790;
@@ -305,7 +302,7 @@ footer .footer-body {
   padding-bottom: 15px;
 }
 
-/*-----------Social Link Hover Effect Styling Inspired from Code Institute */
+/*--------------------- Social Links ---------------------*/
 .social-links li a i {
   width: 32px;
   height: 32px;
