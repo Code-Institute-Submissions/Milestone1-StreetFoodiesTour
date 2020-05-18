@@ -7,7 +7,7 @@
 * <a href="#technologies">Technologies Used :wrench:</a>
 * <a href="#testing">Testing :flashlight:</a>
 * <a href="#deployment">Deployment :rocket:</a>
-* <a href="#cedits">Credits :pencil2:</a>
+* <a href="#credits">Credits :pencil2:</a>
 
 ---
 <span id="project-background"></span>
@@ -139,6 +139,7 @@ This website is saved in a repository on GitHub.
 
 * Webformatter - to beautify my CSS & HTML code 
 * FontAwesome - for all icons used on the website 
+* Balsamiq - for creating sitemap, wireframes and color scheme mockups
 
 ---
 
@@ -166,23 +167,24 @@ This website has been tested by friends and family to check for:
 
 ### 3. Browser & Device Testing 
 
-This website has been tested in the following browsers on Desktop (MacPro 2013 version):
+This website has been tested in the following browsers on Desktop (MacPro 2013):
 * Chrome
 * Safari 
 
 This website has been tested on the following devices:
 * iPhone 11 - Safari 
 * iPhone 6 - Safari
+* iPhone 6s - Safari
 * iPad Air 2 - Safari 
 
 ### 4. Bugs & Problems 
 
 The one major problem I encountered with the website was that the parallax effect doesn't work on mobile and tablet devices. 
 To resolve the issue I tried the following:
-* Uploading small and medium-sized background images and creating separate media queries for each breakpoint (without parallax effect)
-* Removing the parallax effect and adding the background image to a container 
+* Uploading small and medium-sized background images and creating separate media queries for each breakpoint (without parallax effect) as advised [here](https://web.dev/optimize-css-background-images-with-media-queries/)
+* Removing the parallax effect and adding the background image to a container as done in the [CI tutorial](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/4b3b1b062b01424997c8fd052e177b8e/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%404b3b1b062b01424997c8fd052e177b8e)
 
-*However, none of my attempts worked and due to time restrictions I decided to revert back to the original parallax effect.*
+*However, none of my attempts worked and due to time restrictions I decided to revert back to the original parallax effect & tackle it sometime in the future.*
 
 ### 5. Sidenotes: 
 
@@ -192,7 +194,7 @@ without filling out a required field or checking the required boxes
 ---
 
 <span id="deployment"></span>
-## Depolyment :rocket:
+## Deployment :rocket:
 
 This site is hosted on GitHub Pages. 
 
@@ -220,6 +222,7 @@ You can view the live site [here](https://zahrasadiq.github.io/Milestone1-Street
 * The texts have in large part been modified or made up by me, Zahra Sadiq 
 * The quick info details are replicated from the [BangkokVanguards food tour website](https://bangkokvanguards.com/experiences/the-ultimate-bangkok-foodtour/)
 * The customer reviews are real TripAdvisor reviews which have been modified to fit the context of this website 
+* Content written for the Itinerary section was modified from [here](https://feastthailand.com/food/food-culture/chinese-influence/) and [here](https://feastthailand.com/foodies-food-tour/)
 
 ### 4. Acknowledgements 
 
