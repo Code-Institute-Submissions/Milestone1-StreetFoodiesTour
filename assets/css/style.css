@@ -52,8 +52,7 @@ h5 {
 .content-container {
   padding-right: 30px;
   padding-left: 30px;
-  margin-top: 40px;
-  padding-top: 0px;
+  padding-top: 30px;
 }
 
 /*-------------------------------------Nav elements */
@@ -219,6 +218,10 @@ button span i {
   min-height: 300px;
   max-height: 300px;
 }
+
+.card-wrapper {
+    margin-bottom: 10px;
+}
 /*-------------------------------------Pricing Table */
 
 .table-body-content {
@@ -302,7 +305,7 @@ footer .footer-body {
   padding-bottom: 15px;
 }
 
-/*-----------Social Link Hover Effect Styling Taken from Code Institute */
+/*-----------Social Link Hover Effect Styling Inspired from Code Institute */
 .social-links li a i {
   width: 32px;
   height: 32px;
