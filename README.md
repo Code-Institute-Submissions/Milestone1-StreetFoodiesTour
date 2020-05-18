@@ -1,6 +1,5 @@
 # StreetFoodies & Co. - Bangkok's #1 Rated Street Food Tour
 
-<div id="top"></div>
 ## Index:
 * <a href="#project-background">Project Background :information_desk_person:</a> 
 * <a href="#ux">UX :iphone:</a> 
@@ -92,12 +91,10 @@ The website provides:
 
 ### Wireframes & Mockups:
 
-* Link to website structural flow goes here 
-* Link to desktop wireframe goes here
-* Link to mobile wireframe goes here 
-* Link to look & feel mockup goes here
+* View my initial website sitemap and wireframes for desktop & mobile (version 1) [here](https://drive.google.com/file/d/1kq3LTz5UpMnOmWZKe2MqF0he9VmtHf0v/view?usp=sharing)
+* View final website wireframes for desktop and mobile (version 2) [here](https://drive.google.com/file/d/1jHTmi2l2rRZwRnU1M81dYzpXN-xrQHKj/view?usp=sharing) 
+* View my color scheme mockup [here](https://drive.google.com/file/d/1W_Rj8nJMMFHDrnV2U9GIXhA-wkP34Zuo/view?usp=sharing)  
  
-*<div style="align: right"><p><a href="#top">Back to the top</a></p></div>*
 ---
 
 <span id="features"></span>
@@ -207,9 +204,9 @@ You can view the live site [here](https://zahrasadiq.github.io/Milestone1-Street
 
 ### 1. Code Snippets 
 
-* Inspiration for the [Callout Container & Jumbotron](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/4b3b1b062b01424997c8fd052e177b8e/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%404b3b1b062b01424997c8fd052e177b8e) (styling) - Code Institute tutorials (add link)
+* Inspiration for the [Callout Container & Jumbotron](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/4b3b1b062b01424997c8fd052e177b8e/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%404b3b1b062b01424997c8fd052e177b8e) (styling)
 * Inspiration for the [Parallax Effect](https://www.w3schools.com/howto/howto_css_parallax.asp) 
-* Inspiration for [Footer](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%40b51f7b8b815c4bcd9979d2281b6d97a9) (styling) - Code Institute tutorials (add link)
+* Inspiration for [Footer](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%40b51f7b8b815c4bcd9979d2281b6d97a9) (styling)
 
 ### 2. Media 
 
