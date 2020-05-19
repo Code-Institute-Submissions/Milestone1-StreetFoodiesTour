@@ -203,6 +203,7 @@ button span i {
 }
 
 /*--------------------- Itinerary ---------------------*/
+
 .card-group {
   padding-bottom: 40px;
 }
@@ -224,6 +225,7 @@ button span i {
 .table-body-content {
   font-weight: 400;
 }
+
 /*--------------------- Customer Reviews - Carousel ---------------------*/
 
 .carousel-center {
@@ -303,6 +305,7 @@ footer .footer-body {
 }
 
 /*--------------------- Social Links ---------------------*/
+
 .social-links li a i {
   width: 32px;
   height: 32px;
