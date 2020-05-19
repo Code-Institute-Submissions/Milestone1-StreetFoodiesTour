@@ -167,11 +167,11 @@ This website has been tested by friends and family to check for:
 
 ### 3. Browser & Device Testing 
 
-This website has been tested in the following browsers on Desktop:
+This website has been tested on the following Desktop devices:
 *  MacBook Pro 2013 - Chrome & Safari
-*  Safari 
+*  Microsoft Edge - Chrome 
 
-This website has been tested on the following devices:
+This website has been tested on the following Mobile/Tablet devices:
 * iPhone 11 - Safari 
 * iPhone 6 - Safari
 * iPhone 6s - Safari
@@ -186,7 +186,7 @@ To resolve the issue I tried the following:
 
 *However, none of my attempts worked and due to time restrictions I decided to revert back to the original parallax effect & tackle it sometime in the future.*
 
-* Another bug that I came across is that the carousel in the Reviews Section jumps slightly when sliding. I hope to resolve this in the future.   
+* Another bug that I came across is that the carousel in the Reviews Section jumps slightly when sliding on desktop. I hope to resolve this in the future.   
 
 ### 5. Sidenotes: 
 
@@ -203,9 +203,8 @@ without filling out a required field or checking the required boxes.
     * Both the deployed and developed versions of this website are identical.
 
 This site is hosted on GitHub Pages. 
-
-You can view the live site [here](https://zahrasadiq.github.io/Milestone1-StreetFoodiesTour/)
-The url for the site is: https://zahrasadiq.github.io/Milestone1-StreetFoodiesTour/
+* You can view the live site [here](https://zahrasadiq.github.io/Milestone1-StreetFoodiesTour/)
+* The url for the site is: https://zahrasadiq.github.io/Milestone1-StreetFoodiesTour/
 
 ---
 <span id="credits"></span>
