@@ -20,7 +20,7 @@ The idea behind the re envisioned structure & layout of the website is:
 1. To give visitors a better idea of what the tour has to offer through clearly-defined sections highlighting key information & unique selling points;
 2. To provide them with the ability to book the tour with ease with a simple click of a button. 
 
-In the long run, the elevated user experience would help to drive more traffic to the website and generate higher conversions for the agency.
+In the long run, the elevated user experience would help to drive more traffic to the website and generate higher booking conversions for the agency.
 
 ---
 
@@ -167,9 +167,9 @@ This website has been tested by friends and family to check for:
 
 ### 3. Browser & Device Testing 
 
-This website has been tested in the following browsers on Desktop (MacPro 2013):
-* Chrome
-* Safari 
+This website has been tested in the following browsers on Desktop:
+*  MacBook Pro 2013 - Chrome & Safari
+*  Safari 
 
 This website has been tested on the following devices:
 * iPhone 11 - Safari 
@@ -179,26 +179,33 @@ This website has been tested on the following devices:
 
 ### 4. Bugs & Problems 
 
-The one major problem I encountered with the website was that the parallax effect doesn't work on mobile and tablet devices. 
+A major problem I encountered with the website was that the parallax effect doesn't work on mobile and tablet devices. 
 To resolve the issue I tried the following:
 * Uploading small and medium-sized background images and creating separate media queries for each breakpoint (without parallax effect) as advised [here](https://web.dev/optimize-css-background-images-with-media-queries/)
 * Removing the parallax effect and adding the background image to a container as done in the [CI tutorial](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/4b3b1b062b01424997c8fd052e177b8e/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%404b3b1b062b01424997c8fd052e177b8e)
 
 *However, none of my attempts worked and due to time restrictions I decided to revert back to the original parallax effect & tackle it sometime in the future.*
 
+* Another bug that I came across is that the carousel in the Reviews Section jumps slightly when sliding. I hope to resolve this in the future.   
+
 ### 5. Sidenotes: 
 
-* Currently the form is not functional, so testing was only done to make sure that input messages are triggered if a user tries to "submit" the form 
-without filling out a required field or checking the required boxes 
+* Currently the form is not functional, so testing was only done to make sure that input messages are triggered when a user tries to "submit" the form 
+without filling out a required field or checking the required boxes. 
 
 ---
 
 <span id="deployment"></span>
-## Deployment :rocket:
+## Deployment :rocket: 
+
+* This website is stored in a repository on [Github](https://github.com/ZahraSadiq/Milestone1-StreetFoodiesTour.git) 
+    * It was developed on GitPod, with changes regularly pushed to GitHub's repository using one main master branch.
+    * Both the deployed and developed versions of this website are identical.
 
 This site is hosted on GitHub Pages. 
 
 You can view the live site [here](https://zahrasadiq.github.io/Milestone1-StreetFoodiesTour/)
+The url for the site is: https://zahrasadiq.github.io/Milestone1-StreetFoodiesTour/
 
 ---
 <span id="credits"></span>
@@ -209,6 +216,7 @@ You can view the live site [here](https://zahrasadiq.github.io/Milestone1-Street
 * Inspiration for the [Callout Container & Jumbotron](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/4b3b1b062b01424997c8fd052e177b8e/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%404b3b1b062b01424997c8fd052e177b8e) (styling)
 * Inspiration for the [Parallax Effect](https://www.w3schools.com/howto/howto_css_parallax.asp) 
 * Inspiration for [Footer](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%40b51f7b8b815c4bcd9979d2281b6d97a9) (styling)
+* Code used for [Email link](https://www.tutorialspoint.com/html/html_email_links.htm) in footer 
 
 ### 2. Media 
 
